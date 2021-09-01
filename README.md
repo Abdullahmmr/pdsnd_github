@@ -17,7 +17,7 @@ The Chicago and New York City files also provide the following two columns:
 * Birth Year
 
 ## Files
-I used data provided by Motivate, a national bike share system provider. In order to run the program, the following files are needed.
+I used data provided by Motivate, a national bike share system provider. In order to run the program, the following files are needed. The average size of each file is approx 30MB.
 * chicago.csv
 * new_york_city.csv
 * washington.csv
