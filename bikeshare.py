@@ -22,7 +22,7 @@ def get_filters():
         overview = pd.read_csv(CITY_DATA[city])
         print('Here the first 5 rows from',city, ':\n', overview.head(5))
 
-    # get user input for month (all, january, february, ... , june)
+    # get user input for month (all, january, february, march ... , june)
     month = input("Please Select the month between January to June or all: ").lower()
     while month not in ['january', 'february', 'march', 'april', 'may', 'june', 'all']:
         print('Not Valid')
